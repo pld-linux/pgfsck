@@ -7,6 +7,7 @@ Release:	0.2
 License:	BSD
 Group:		Applications/Databases
 Source0:	http://svana.org/kleptog/pgsql/%{name}-%{version}.tar.gz
+# Source0-md5:	f69f2388ffc1f9d4f7e702a5cb8ad254
 URL:		http://svana.org/kleptog/pgsql/pgfsck.html
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
