@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	PostgreSQL table checker and dumper
-Summary(pl):	Narzêdzie do sprawdzania baz systemu PostgreSQL
+Summary(pl.UTF-8):   NarzÄ™dzie do sprawdzania baz systemu PostgreSQL
 Name:		pgfsck
 Version:	0.14
 Release:	0.1
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 PostgreSQL table checker and dumper.
 
-%description -l pl
-Narzêdzie do sprawdzania baz systemu PostgreSQL.
+%description -l pl.UTF-8
+NarzÄ™dzie do sprawdzania baz systemu PostgreSQL.
 
 %prep
 %setup -q -c
