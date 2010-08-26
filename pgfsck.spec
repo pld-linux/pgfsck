@@ -23,10 +23,10 @@ Narzędzie do sprawdzania baz systemu PostgreSQL.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{perl_vendorlib}
+install -d $RPM_BUILD_ROOT{%{perl_vendorlib},%{_sbindir}}
 
-install -D pgfsck $RPM_BUILD_ROOT%{_sbindir}/pgfsck
-install *.pm $RPM_BUILD_ROOT%{perl_vendorlib}
+cp -a pgfsck $RPM_BUILD_ROOT%{_sbindir}
+cp -a *.pm $RPM_BUILD_ROOT%{perl_vendorlib}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
