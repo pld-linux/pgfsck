@@ -3,7 +3,7 @@ Summary:	PostgreSQL table checker and dumper
 Summary(pl.UTF-8):	Narzędzie do sprawdzania baz systemu PostgreSQL
 Name:		pgfsck
 Version:	0.20
-Release:	0.1
+Release:	1
 License:	BSD
 Group:		Applications/Databases
 Source0:	http://svana.org/kleptog/pgsql/%{name}-%{version}.tar.gz
