@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	PostgreSQL table checker and dumper
 Summary(pl.UTF-8):	Narzędzie do sprawdzania baz systemu PostgreSQL
 Name:		pgfsck
